@@ -1,0 +1,4 @@
+INDEX VERSION 1.4+E:\gkkuu\pro17p\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1709217607.index
+2009553705.index
+1963678187.index
