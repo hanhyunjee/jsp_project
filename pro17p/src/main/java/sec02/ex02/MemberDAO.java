@@ -53,13 +53,13 @@ public class MemberDAO {
 		return membersList;
 	}
 
-	public void addMember(MemberVO m) {
+	public MemberVO addMember(MemberVO memberVO) {
 		try {
 			conn = dataFactory.getConnection();
-			String id = m.getId();
-			String pwd = m.getPwd();
-			String name = m.getName();
-			String email = m.getEmail();
+			String id = memberVO.getId();
+			String pwd = memberVO.getPwd();
+			String name = memberVO.getName();
+			String email = memberVO.getEmail();
 			String query = "INSERT INTO t_member(id, pwd, name, email)" + " VALUES(?, ? ,? ,?)";
 			System.out.println(query);
 			pstmt = conn.prepareStatement(query);
@@ -73,6 +73,7 @@ public class MemberDAO {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		return memberVO;
 	}
 
 	public MemberVO findMember(String _id) {
@@ -133,4 +134,21 @@ public class MemberDAO {
 			e.printStackTrace();
 		}
 	}
+
+	public static MemberDAO getInstance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public MemberVO getMember(String userid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public int userCheck(String userid, String pwd) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
 }
