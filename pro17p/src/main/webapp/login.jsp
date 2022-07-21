@@ -9,13 +9,10 @@
 <title>여행지 게시판 웹사이트</title>
 </head>
 <body>
-
 	<nav class="navbor">
-
 		<script
 			src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="js/bootstrap.js"></script>
-
 		<nav class="navbar navbar-default">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed"
@@ -50,17 +47,16 @@
 					<form method="post" action="loginaction.jsp">
 						<h3 style="text-align: center;">로그인화면</h3>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
+							<input type="text" class="form-control" placeholder="아이디" name="userID" value="${userID}" maxlength="20">
 						</div>
 						<div class="form-group">
 							<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
 						</div>
-						<input type="submit" class="btn btn-primary form-control" value="로그인">
+						<input type="submit" class="btn btn-primary form-control" value="로그인" onclick="return loginCheck()">&nbsp;&nbsp;
 	
 					</form>
 		</div>
 		</div>
 		<div class="col-lg-4"></div>
-
 </body>
 </html>

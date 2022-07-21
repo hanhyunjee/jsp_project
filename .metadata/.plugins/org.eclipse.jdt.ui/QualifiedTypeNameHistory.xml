@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="sec02.ex02.MemberDAO"/>
+    <fullyQualifiedTypeName name="sec02.ex02.MemberVO"/>
+</qualifiedTypeNameHistroy>
