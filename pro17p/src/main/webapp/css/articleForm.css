@@ -27,7 +27,7 @@ h1 {
   background-color: rgb(233, 233, 233);
   line-height: 4;
 }
-tbody {
+table tbody {
 	margin: 0 auto;
 }
 .btn {

@@ -99,6 +99,7 @@
   <title>글목록창</title>
 </head>
 <body>
+
   <div class="bg">
     <h1>게시판</h1>
   <div class="home">

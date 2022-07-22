@@ -7,6 +7,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\gkkuu\gegege"/>
+			<item value="E:\gkkuu\ezezez\MVC_project"/>
 			<item value="C:\Users\gkkuu\Desktop\chap10_Product"/>
 			<item value="C:\Users\gkkuu\Desktop\chap11"/>
 			<item value="E:\gkkuu\jsp_data\test07"/>
@@ -15,7 +17,6 @@
 			<item value="E:\gkkuu\jsp_data\chap11"/>
 			<item value="E:\gkkuu\pro17p\pro17p"/>
 			<item value="E:\gkkuu\jsp_data\chap09"/>
-			<item value="E:\gkkuu\ezezez\MVC_project"/>
 			<item value="E:\gkkuu\pro17p\pro17"/>
 			<item value="E:\gkkuu\pro17p"/>
 		</list>

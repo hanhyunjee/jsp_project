@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Fri Jul 22 00:01:07 KST 2022
+#Fri Jul 22 14:53:38 KST 2022
+org.eclipse.jst.jee.server\:bbs=C\:\\tomcat-8\\wtpwebapps\\bbs
 org.eclipse.jst.jee.server\:pro17p=C\:\\tomcat-8\\wtpwebapps\\pro17p
