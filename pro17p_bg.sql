@@ -27,7 +27,6 @@ FROM USER_t;
 
 
 
-
 DROP TABLE t_Board CASCADE CONSTRAINTS;
 
 create table t_Board(
