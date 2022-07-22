@@ -1,4 +1,8 @@
 #Tomcat publish data
+<<<<<<< HEAD
 #Fri Jul 22 14:53:38 KST 2022
 org.eclipse.jst.jee.server\:bbs=C\:\\tomcat-8\\wtpwebapps\\bbs
+=======
+#Fri Jul 22 00:01:07 KST 2022
+>>>>>>> han
 org.eclipse.jst.jee.server\:pro17p=C\:\\tomcat-8\\wtpwebapps\\pro17p

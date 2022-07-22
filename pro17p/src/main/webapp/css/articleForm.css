@@ -27,7 +27,11 @@ h1 {
   background-color: rgb(233, 233, 233);
   line-height: 4;
 }
+<<<<<<< HEAD
 table tbody {
+=======
+tbody {
+>>>>>>> han
 	margin: 0 auto;
 }
 .btn {
